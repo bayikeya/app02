@@ -3,10 +3,10 @@ const arTarget = document.getElementById("arTarget");
 
 // 経路案内する地点のリスト（各地点に異なる音声 & 画像）
 const destinations = [
-    { name: "チェックポイント1", lat: 35.69166506398659, lon: 140.05100862030622, audio: "audio1.mp3", arImage: "huyuka1.jpg" },
-    { name: "チェックポイント2", lat: 35.6938795832396,  lon: 140.05118349944036, audio: "audio2.mp3", arImage: "huyuka2.jpg" },
-    { name: "チェックポイント3", lat: 35.6937083132655,  lon: 140.0522751420552, audio: "audio3.mp3", arImage: "huyuka3.jpg" },
-    { name: "最終地点", lat: 35.692831753523315, lon: 140.05171063156743, audio: "goal.mp3", arImage: "huyuka4.jpg" }
+    { name: "チェックポイント1", lat: 35.69166506398659, lon: 140.05100862030622, audio: "audio1.mp3", arImage: "./huyuka1.jpg" },
+    { name: "チェックポイント2", lat: 35.6938795832396,  lon: 140.05118349944036, audio: "audio2.mp3", arImage: "./huyuka2.jpg" },
+    { name: "チェックポイント3", lat: 35.6937083132655,  lon: 140.0522751420552, audio: "audio3.mp3", arImage: "./huyuka3.jpg" },
+    { name: "最終地点", lat: 35.692831753523315, lon: 140.05171063156743, audio: "goal.mp3", arImage: "./huyuka4.jpg" }
 ];
 
 let currentDestinationIndex = 0;
